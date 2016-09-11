@@ -1,0 +1,43 @@
+{
+  "name": "mern-stack-skelton",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "make test"
+  },
+  "dependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "body-parser": "~1.15.1",
+    "chai": "~3.5.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "express-session": "^1.10.1",
+    "jade": "~1.11.0",
+    "mocha": "~3.0.2",
+    "mongoose": "^4.4.1",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "serve-favicon": "~2.3.0",
+    "should": "~11.1.0"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "babel-core": "^6.7.*",
+    "babel-loader": "^6.2.*",
+    "babel-preset-es2015": "^6.6.*",
+    "babel-preset-react": "^6.5.*",
+    "webpack": "^1.12.*",
+    "webpack-dev-server": "^1.14.*",
+    "zombie": "^4.2.1"
+  },
+  "author": "Noby Fujioka",
+  "license": "ISC",
+  "description": ""
+}
