@@ -5,7 +5,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', { user : req.user });
+    res.render('index', { user : req.user, scriptFileName: 'app.js' });
 });
 
 router.get('/register', function(req, res) {
